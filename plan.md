@@ -21,14 +21,14 @@
 - ✅ Implement tag read/write extraction (ladder + ST)
 
 ### Milestone 3: Dependency graph + station grouping
-- Build dependency graph (calls, reads, writes)
-- Implement station grouping rules engine
-- Validate graph output on sample projects
+- ✅ Build dependency graph (calls, reads, writes)
+- ✅ Implement station grouping rules engine
+- ✅ Validate graph output on sample projects
 
 ### Milestone 4: Core UI views (Navigator, Station, Trace)
-- Implement Program Navigator + dependency map
-- Implement Station-Centric View with summaries
-- Implement Signal Trace / I/O Explorer
+- ✅ Implement Program Navigator + dependency map (shell)
+- ✅ Implement Station-Centric View with summaries (shell)
+- ✅ Implement Signal Trace / I/O Explorer (shell)
 
 ### Milestone 5: AOI/UDT docs + Impact Lens
 - Implement AOI/UDT Explainer and usage lists
@@ -47,10 +47,10 @@
 - [x] Define IR schema and graph edges
 - [x] Build streaming L5X parser and entity indexer
 - [x] Implement tag read/write extraction (ladder + ST)
-- [ ] Build dependency graph and station grouping
-- [ ] Implement Program Navigator + dependency map
-- [ ] Implement Station-Centric View with summaries
-- [ ] Implement Signal Trace / I/O Explorer
+- [x] Build dependency graph and station grouping
+- [x] Implement Program Navigator + dependency map (shell)
+- [x] Implement Station-Centric View with summaries (shell)
+- [x] Implement Signal Trace / I/O Explorer (shell)
 - [ ] Implement AOI/UDT Explainer and usage lists
 - [ ] Implement Change Impact Lens
 - [ ] Implement Learning Mode walkthrough generator

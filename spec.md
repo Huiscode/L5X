@@ -95,6 +95,24 @@
   - UsesType (Tag→UDT)
   - DependsOn (UDT→UDT)
   - BelongsToStation (Routine/Program→Station)
+- Builder (M3):
+  - Adds Program → Routine contains edges
+  - Adds Routine → Tag read/write edges from extraction
+  - Adds Routine → AOI calls edges with instance metadata
+  - Adds Tag → UDT uses edges for controller and program tags
+  - Adds UDT → UDT dependency edges
+
+### Graph Data Structures (M3)
+- GraphNode
+  - Id (string), Kind (enum), Name (string)
+- GraphEdge
+  - Kind (enum), FromId, ToId, Metadata (optional)
+- DependencyGraph
+  - Nodes (dictionary by Id)
+  - Edges (adjacency list by FromId)
+  - Methods: AddNode, AddEdge, GetOutgoing, GetIncoming
+- StationRule
+  - Name, Patterns (list of regex or wildcard patterns)
 
 ## APIs / Endpoints
 - Local service interfaces (in-process), no external endpoints in v1.

@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-L5XInspector",
+      "appliesTo": "L5XInspector.App/",
+      "type": "launch"
+    }
+  ]
+}

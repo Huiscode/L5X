@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="L5XInspector.App.Views.TracePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Padding="24" ColumnDefinitions="2*,3*" RowDefinitions="Auto,*" ColumnSpacing="16" RowSpacing="16">
+        <TextBlock Text="Signal Trace / I/O Explorer" FontSize="24" FontWeight="SemiBold" Grid.ColumnSpan="2" />
+        <Border Grid.Row="1" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="12">
+            <StackPanel Spacing="8">
+                <TextBlock Text="Tag Search" FontWeight="SemiBold" />
+                <TextBlock Text="History + favorites" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+            </StackPanel>
+        </Border>
+        <Grid Grid.Row="1" Grid.Column="1" RowDefinitions="Auto,*" RowSpacing="12">
+            <Border Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="12">
+                <StackPanel Spacing="8">
+                    <TextBlock Text="Read / Write Locations" FontWeight="SemiBold" />
+                    <TextBlock Text="Routines and instruction snippets" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                </StackPanel>
+            </Border>
+            <Border Grid.Row="1" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="12">
+                <StackPanel Spacing="8">
+                    <TextBlock Text="Trace Graph" FontWeight="SemiBold" />
+                    <TextBlock Text="Forward/backward traversal" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+                </StackPanel>
+            </Border>
+        </Grid>
+    </Grid>
+</Page>
+

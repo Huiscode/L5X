@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="L5XInspector.App.Views.LearningPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Grid Padding="24" RowDefinitions="Auto,*" ColumnDefinitions="2*,3*" ColumnSpacing="16" RowSpacing="16">
+        <TextBlock Text="Learning Mode" FontSize="24" FontWeight="SemiBold" Grid.ColumnSpan="2" />
+        <Border Grid.Row="1" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="12">
+            <StackPanel Spacing="8">
+                <TextBlock Text="Scenario Selector" FontWeight="SemiBold" />
+                <TextBlock Text="Start/Stop, Safety, Station Cycle" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="1" Background="{ThemeResource CardBackgroundFillColorDefaultBrush}" CornerRadius="8" Padding="12">
+            <StackPanel Spacing="8">
+                <TextBlock Text="Walkthrough Timeline" FontWeight="SemiBold" />
+                <TextBlock Text="Step-by-step narrative with linked routines" Foreground="{ThemeResource TextFillColorSecondaryBrush}" />
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>
+

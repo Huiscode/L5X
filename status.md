@@ -7,13 +7,15 @@
 - AOI parse test: 0 AOIs in sample (as reported by CLI).
 - Read/write extraction test: Reads=20177, Writes=10395 (UN01_FPP_1_Program.L5X).
 - AOI call detection test: AOI calls=0 (UN01_FPP_1_Program.L5X).
+- Graph validation (M3): Nodes=20919, Edges=36193; Node types Program=118, Routine=660, Station=2, Tag=19864, Udt=275; Edge types Contains=696, DependsOn=311, Reads=20177, UsesType=4614, Writes=10395.
+- Station rules test: BelongsToStation edges=0 (patterns did not match sample naming).
 
 ## Current Focus
-- Milestone 2 parsing: tag read/write extraction and AOI coverage.
+- Milestone 4 complete; ready to begin AOI/UDT docs and Impact views (M5).
 
 ## Next Steps
-- Validate AOI parsing against a sample with AOIs.
-- Improve ladder (RLL) extraction coverage beyond XIC/XIO/OTE/OTL/OTU/MOV.
+- Start M5: wire AOI/UDT explorer to parsed models.
+- Start Impact Lens data scaffolding.
 
 ## Fix Notes (Programs/Routines were zero)
 - Root cause: parsing within `<Controller>` was skipping `<Programs>` when using `ReadSubtree` + `Skip`.

@@ -1,0 +1,12 @@
+{
+  "stations": [
+    {
+      "name": "Station_A",
+      "patterns": ["*STATION_A*", "*STA_A*"]
+    },
+    {
+      "name": "Station_B",
+      "patterns": ["*STATION_B*", "*STA_B*"]
+    }
+  ]
+}

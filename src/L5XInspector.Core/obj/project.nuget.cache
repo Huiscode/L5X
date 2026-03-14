@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xsPlNghtTZA=",
+  "dgSpecHash": "UPge+E1niBY=",
   "success": true,
   "projectFilePath": "C:\\Users\\Hz\\Documents\\Workspace\\L5X\\src\\L5XInspector.Core\\L5XInspector.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Hz\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.25\\microsoft.aspnetcore.app.runtime.win-x64.8.0.25.nupkg.sha512",
+    "C:\\Users\\Hz\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.25\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.25.nupkg.sha512",
+    "C:\\Users\\Hz\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.25\\microsoft.netcore.app.runtime.win-x64.8.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
